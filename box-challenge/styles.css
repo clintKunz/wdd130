@@ -1,0 +1,21 @@
+body {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.topImageContainer img {
+  width: 100%;
+  margin-bottom: -5px;
+}
+
+.bottomImagesContainer {
+  background-color: #737373;
+  text-align: center;
+}
+
+.bottomImagesContainer img {
+  width: 200px;
+  border-radius: 50%;
+  border: 10px solid #444444;
+  margin: 20px;
+}
