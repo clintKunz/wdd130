@@ -1,0 +1,40 @@
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+#logo_link {
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 150px auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin: auto 0;
+}
+
+#hero {
+  background-color: green;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  text-align: center;
+}
+
+#hero-box {
+  grid-column: 2/3;
+}
+
+#hero-msg {
+  grid-column: 2/3;
+}
+
+#hero-msg h4 {
+  color: white;
+}
